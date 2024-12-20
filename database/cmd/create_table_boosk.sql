@@ -1,0 +1,9 @@
+CREATE TABLE Books (
+    `id` BINARY(16) NOT NULL,
+    `Title` VARCHAR(100) NOT NULL,
+    `Author` VARCHAR(100) NOT NULL,
+    `Qtde` TINYINT NOT NULL,
+    `DateCreated` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+)
+ENGINE = InnoDB;
